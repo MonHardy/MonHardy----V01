@@ -1,0 +1,604 @@
+body {
+	height: 100%;
+	display: flex;
+	background-color: #17212e;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: #FCF0C8;
+}
+
+h1 {
+	color: #506291;
+	position: relative;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 50px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+
+h2 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 26px;
+	margin-top: 10;
+	color: #FCF0C8;
+}
+
+p {
+	color: #FACE7F;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.bgabs1 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0%;
+	display: block;
+}
+
+.bga {
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	left: 210px;
+}
+
+.logo {
+	position: relative;
+	width: 140px;
+	height: 120px;
+	left: 210px;
+	top: -100px;
+}
+
+.logotxt {
+	position: relative;
+	width: 120px;
+	left: 60px;
+	top: 40px;
+}
+
+.menubar {
+	position: absolute;
+	background-color: #506291;
+	width: 430px;
+	height: 36px;
+	left: 60%;
+	top: 5%;
+	border-radius: 30px;
+}
+
+.menun {
+	position: absolute;
+	font-weight: bold;
+	width: 600px;
+	height: 36px;
+	left: 15%;
+	top: 15%;
+}
+
+.info {
+	position: absolute;
+	height: 10%;
+	width: ;
+	background-color: 0;
+	margin: 0;
+	left: 10%;
+	top: 10%;
+}
+
+.aboutback {
+	position: relative;
+	background-color: #374a77;
+	height: 500px;
+	width: 600px;
+	top: 170px;
+	left: 10%;
+	border-radius: 10px;
+}
+
+.abouttxt {
+	height: 90px; 
+	width: 500px;
+	position: relative;
+	text-align: justify;
+	margin: 50px 50px 50px 60px;
+	top: -350px;
+	left: 10%;
+
+}
+
+.avatar-profile {
+	position: relative;
+	top: 30;
+	border-radius: 50%;
+	top: -560px;
+	left: -18%;
+}
+
+.cc {
+	position: relative;
+	background-color: ;
+	height: 19%; 
+	width: 20%;
+	font-size: 14px;
+	border-radius: 10px;
+	top: -590px;
+	left: -13%;
+}
+
+.blink {
+			 animation: blink-animation 1s steps(5, start) infinite;
+			 -webkit-animation: blink-animation 1s steps(5, start) infinite;
+		 }
+		 @keyframes blink-animation {
+			 to {
+				 visibility: hidden;
+			 }
+		 }
+		 @-webkit-keyframes blink-animation {
+			 to {
+				 visibility: hidden;
+			 }
+		 }
+
+		 .perfprof {
+			position: relative;
+			color: #729bfb;
+			height: 19%;
+			width: 20%;
+			top: 100px;
+			left: 13%;
+		 }
+
+.contatos {
+	position: relative;
+	font-weight: bold;
+	background-color: #506291;
+	width: 160px;
+	height: 30px;
+	top: -390px;
+	left: 140px;
+	border-radius: 30px;
+	padding: 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right: 7px;
+	padding-left: 20px;
+}
+
+.github {
+	position: relative;
+	width: 30px;
+	top: -380px;
+	left: 150px;
+}
+
+.linkedin {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	top: -380px;
+	left: 170px;
+}
+
+.email {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: -300px;
+	left: 250px;
+}
+
+.rodape {
+	background-color: #506291 ;
+	border-top: 1px solid #333;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+div.body-content {
+	margin-bottom: 40px;
+}
+
+
+.containerhabilidades {
+	position: absolute;
+	height: 100%;
+	width: ;
+	margin: 0;
+	left: 65%;
+	top: 10%;
+}
+
+.habilidades {
+	position: relative;
+	left: 60%;
+	top: 60px;
+}
+
+.retro {
+	position: relative;
+	left: 5%;
+	top: -90px;
+	height: 200px;
+	max-width: 200px;
+}
+
+.box2 {
+position: relative;
+background: #374a77;
+height: 150px;
+width: 300px;
+left: 45%;
+top: 110px;
+padding: 20px 5px 5px 65px;
+border-radius: 30px;
+}
+
+			.graduacoes {
+					width: 160px;
+					height: 160px;
+					position: relative;
+					top: 500px;
+					left: 60%;
+				}
+
+	.skill {
+	    width: 160px;
+	    height: 160px;
+	    position: relative;
+	}
+
+	.outer {
+	    height: 160px;
+	    width: 160px;
+	    border-radius: 50%;
+	    padding: 23px;
+	    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+	                -6px -6px 10px -1px rgba(12, 7, 79, 0.7);
+	}
+
+	.inner {
+	    height: 120px;
+	    width: 120px;
+	    padding: 20px;
+	    border-radius: 50%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.15),
+	                inset -4px -4px 6px -1px rgba(12, 7, 79, 0.7),
+	                -0.5px -0.5px 0px rgba(12, 7, 79, 0.7),
+	                0.5px 0.5px 0px rgba(0,0,0,0.15),
+	                0px 12px 10px -10px rgba(0,0,0,0.05);
+	}
+
+	#number{
+		font-weight: 600px;
+		color: #555;
+	}
+
+circle{
+    fill: none;
+    stroke:  url(#GradientColor);
+    stroke-width:  20px;
+    stroke-dasharray: 472;
+    stroke-dasharray: 472;
+    animation:  anim 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 162/*162*/;
+    }	
+}
+
+
+	#number{
+		font-weight: 600px;
+		color: #555;
+	}
+
+	.curso1img{
+	height: 90px; 
+	width: 20px;
+	position: relative;
+	text-align: justify;
+	margin: 50px 50px 50px 60px;
+	top: 750px;
+	left: 50%;
+	}
+	.curso1txt{
+	height: 300px; 
+	width: 140px;
+	position: relative;
+	text-align: center;
+	margin: 50px 10px 10px 10px;
+	top: 750px;
+	left: 50%;
+
+	}
+
+	/* ******** TELA MENOR ******** */
+
+@media (max-width:  1297px) {
+
+	.menubar {	
+	position: absolute;
+	background-color: #506291;
+	width: 430px;
+	height: 36px;
+	left: 10%;
+	top: 180px;
+	border-radius: 30px;
+	}
+
+	.logo {
+	position: relative;
+	width: 140px;
+	height: 120px;
+	left: 290px;
+	top: -100px;
+}
+
+.logotxt {
+	position: relative;
+	width: 120px;
+	left: 140px;
+	top: 40px;
+}
+
+.info {
+	position: absolute;
+	height: 10%;
+	width: ;
+	background-color: 0;
+	margin: 0;
+	left: 5%;
+	top: 100px;
+}
+
+.aboutback {
+	position: relative;
+	background-color: #374a77;
+	height: 570px;
+	width: 430px;
+	top: 370px;
+	left: 2%;
+	border-radius: 10px;
+}
+
+.abouttxt {
+	height: 110px; 
+	width: 380px;
+	position: relative;
+	text-align: justify;
+	margin: 50px 50px 50px 60px;
+	top: -220px;
+	left: -5%;
+
+}
+
+.avatar-profile {
+	position: relative;
+	top: 50;
+	border-radius: 50%;
+	top: -610px;
+	left: 23%;
+}
+
+.cc {
+	position: relative;
+	background-color: ;
+	height: 19%; 
+	width: 22%;
+	font-size: 14px;
+	border-radius: 10px;
+	top: -650px;
+	left: 23%;
+}
+
+.blink {
+			 animation: blink-animation 1s steps(5, start) infinite;
+			 -webkit-animation: blink-animation 1s steps(5, start) infinite;
+		 }
+		 @keyframes blink-animation {
+			 to {
+				 visibility: hidden;
+			 }
+		 }
+		 @-webkit-keyframes blink-animation {
+			 to {
+				 visibility: hidden;
+			 }
+		 }
+
+		 .perfprof {
+			position: relative;
+			color: #729bfb;
+			height: 19%;
+			width: 20%;
+			top: 120px;
+			left: 15%;
+		 }
+
+		 .contatos {
+			position: relative;
+			font-weight: bold;
+			background-color: #506291;
+			width: 160px;
+			height: 30px;
+			top: -210px;
+			left: 130px;
+			border-radius: 30px;
+			padding: 50px;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			padding-right: 7px;
+			padding-left: 20px;
+			}
+
+			.github {
+				position: relative;
+				width: 30px;
+				top: -200px;
+				left: 80px;
+			}
+
+			.linkedin {
+				position: relative;
+				width: 32px;
+				height: 32px;
+				top: -200px;
+				left: 100px;
+			}
+
+			.email {
+				position: relative;
+				width: 30px;
+				height: 30px;
+				top: -116px;
+				left: 180px;
+			}
+
+				.containerhabilidades {
+				position: absolute;
+				height: 100%;
+				width: 50%;
+				margin: 0;
+				left: 5%;
+				top: 1300px;
+			}
+
+			.habilidades {
+				position: relative;
+				left: 10%;
+				top: 110px;
+			}
+
+			.retro {
+				position: relative;
+				left: 30%;
+				top: -355px;
+				height: 200px;
+				max-width: 200px;
+			}
+
+			.box2 {
+				position: relative;
+				background: #374a77;
+				height: 150px;
+				width: 300px;
+				left: 2%;
+				top: 105px;
+				padding: 20px 5px 5px 65px;
+				border-radius: 30px;
+				}
+
+			.graduacoes {
+					width: 160px;
+					height: 160px;
+					position: relative;
+					top: 1700px;
+					left: -60px;
+				}
+
+	.skill {
+	    width: 160px;
+	    height: 160px;
+	    position: relative;
+	}
+
+	.outer {
+	    height: 160px;
+	    width: 160px;
+	    border-radius: 50%;
+	    padding: 23px;
+	    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+	                -6px -6px 10px -1px rgba(12, 7, 79, 0.7);
+	}
+
+	.inner {
+	    height: 120px;
+	    width: 120px;
+	    padding: 20px;
+	    border-radius: 50%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.15),
+	                inset -4px -4px 6px -1px rgba(12, 7, 79, 0.7),
+	                -0.5px -0.5px 0px rgba(12, 7, 79, 0.7),
+	                0.5px 0.5px 0px rgba(0,0,0,0.15),
+	                0px 12px 10px -10px rgba(0,0,0,0.05);
+	}
+
+	#number{
+		font-weight: 600px;
+		color: #555;
+	}
+
+circle{
+    fill: none;
+    stroke:  url(#GradientColor);
+    stroke-width:  20px;
+    stroke-dasharray: 472;
+    stroke-dasharray: 472;
+    animation:  anim 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 162/*162*/;
+    }	
+}
+
+
+	#number{
+		font-weight: 600px;
+		color: #555;
+	}
+
+	.curso1img{
+	height: 90px; 
+	width: 20px;
+	position: relative;
+	text-align: justify;
+	margin: 50px 50px 50px 60px;
+	top: 1950px;
+	left: -200px;
+	}
+	.curso1txt{
+	height: 300px; 
+	width: 140px;
+	position: relative;
+	text-align: center;
+	margin: 50px 10px 10px 10px;
+	top: 2025px;
+	left: -310px;
+
+	}
+}
